@@ -1,7 +1,67 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Calculator</title>
+    <link href="index.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>JS CALCULATOR</h1>
+        <button id="theme-mode"></button>
+    </header>
+    
+    <div class="calc-container">
+        <div class="calculator">
+            <div class="display">0
+            </div>
+            <div class="row">
+                <div class="row-buttons">
+                    <button id="clear">C</button>
+                    <button id="slash">/</button>
+                    <button id="asterisk">*</button>
+                </div>
+                <div class="row-minus">
+                    <button id="minus">-</button>
+                </div>
+            </div>
+            <div class="row1">
+                <div class="row1-buttons">
+                    <div class="row1-top">
+                        <button id="seven">7</button>
+                        <button id="eigth">8</button>
+                        <button id="nine">9</button>
+                    </div>
+                    <div class="row1-bottom">
+                        <button id="four">4</button>
+                        <button id="five">5</button>
+                        <button id="six">6</button>
+                    </div>
+                </div>
+                <div class="row1-plus">
+                    <button id="plus">+</button>
+                </div>
+            </div>
+            <div class="row2">
+                <div class="row2-buttons">
+                    <div class="row2-top">
+                        <button id="one">1</button>
+                        <button id="two">2</button>
+                        <button id="three">3</button>
+                    </div>
+                    <div class="row2-bottom">
+                        <button id="zero">0</button>
+                        <button id="dot">.</button>
+                    </div>  
+                </div>
+                <div class="row2-equal">
+                    <button id="operate">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="operator"></div>
+    <audio src="key.wav" id="audio" ></audio> 
+    <script src="calculator-copy.js"></script>
+    <footer><a href="http://github.com/wasyted" target="_blank">github.com/wasyted - 2023</a></footer> 
 </body>
 </html>
